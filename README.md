@@ -19,9 +19,9 @@ edge cases. For example, if the array of words contains the same word multiple t
 that word is returned multiple times. I would want to account for that possibility
 and only return the word once. 
 
-* If there is a word in the array that is repeated multiple times
+I would also potentially build out responses or error messages so that invalid entries don't
+always just return an empty string.
 
-additionally, I would implement error messages.
 
 ## Running and testing the project locally
 To run the project locally, you will need to install the npm packages (jest),
